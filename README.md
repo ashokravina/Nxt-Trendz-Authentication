@@ -1,5 +1,13 @@
 In this project, let's build **Nxt Trendz** app with authentication by applying the concepts we have learned till now.
 
+Login Page Link: https://nxttrendzauther.ccbp.tech/login 
+
+UserName: "rahul"
+
+Password: "rahul@2021"
+
+Home Page Link: https://nxttrendzauther.ccbp.tech
+
 ### Refer to the image below:
 
 <br/>
