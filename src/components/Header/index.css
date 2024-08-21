@@ -1,0 +1,111 @@
+/* Write your CSS code here */
+.logo {
+  width: 150px;
+  height: 60px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-around;
+}
+.list {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  color: #475569;
+}
+.button {
+  width: 80px;
+  text-align: center;
+  font-size: 14px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  .navbar-sm {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    display: none;
+  }
+  .list {
+    text-decoration: none;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .logo {
+    width: 100px;
+    height: 40px;
+  }
+  .nav-img {
+    width: 25px;
+    height: 30px;
+  }
+  .header-card {
+    background-color: #e6f6ff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .list {
+    text-decoration: none;
+  }
+  .btn {
+    outline: none;
+    border: 0 px solid transparent;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-width: 0px;
+  }
+  .navbar {
+    display: none;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .logo {
+    width: 100px;
+    height: 40px;
+  }
+  .nav-img {
+    width: 25px;
+    height: 30px;
+  }
+  .header-card {
+    background-color: #e6f6ff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,146 @@
+/* Write your CSS code here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login-img {
+  width: 40%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #d7dfe9 0px 8px 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 40%;
+  width: 40%;
+}
+.website-logo {
+  width: 30%;
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.button {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: 1px solid #0b69ff;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  width: 310px;
+  height: 30px;
+}
+.input-label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  padding-bottom: 5px;
+}
+
+.input-text {
+  padding-left: 10px;
+  border: 0px solid #1e293b;
+  background-color: #d7dfe9;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+.input-password {
+  padding-left: 10px;
+  border: 0px solid #1e293b;
+  background-color: #d7dfe9;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.website-logo-sm {
+  display: none;
+}
+@media (max-width: 576px) {
+  .website-logo {
+    display: none;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .login-img {
+    width: 45%;
+  }
+  .form-container {
+    width: 90%;
+    box-shadow: #ffffff 0px 0px 0px;
+  }
+  .website-logo-sm {
+    display: block;
+    width: 40%;
+  }
+  .input-password {
+    width: 200px;
+  }
+  .input-text {
+    width: 200px;
+  }
+  .button {
+    width: 265px;
+  }
+  .input-label {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .website-logo {
+    display: none;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .login-img {
+    width: 60%;
+  }
+  .form-container {
+    width: 70%;
+  }
+  .website-logo-sm {
+    display: block;
+    width: 40%;
+  }
+  .input-password {
+    width: 300px;
+  }
+  .input-text {
+    width: 300px;
+  }
+  .button {
+    width: 310px;
+  }
+  .input-label {
+    font-size: 14px;
+  }
+}
+.error-msg {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ff0b37;
+}
